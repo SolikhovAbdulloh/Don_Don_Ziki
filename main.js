@@ -34,6 +34,7 @@
 // console.log(aaa);
 
 // console.log(btn)
+// asda
 
 const menu = document.querySelector(".menu")
 
