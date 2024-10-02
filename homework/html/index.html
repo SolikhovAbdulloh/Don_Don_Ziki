@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/output.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- <header>
+        <div class="contiener">
+             <div class="flex justify-between items-center"> 
+                <a href="#"><img src="../imges/logo.png" alt="asd"></a>
+                <div class="flex items-center gap-[30px] font-medium text-[14px] leading-[150%] text-right text-[#000]">
+                    <a href="#">Москва,<br>Дмитровское шоссе, д 62 стр 5</a>
+                    <a href="#">+7 499 321-20-63 <br> Заказать звонок</a>
+                    <a href="#">9:00 - 20:00 <br> ежедневно</a>
+                    <a href="#"><img src="../imges/yurak.svg" alt="s"></a>
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center pt-[35px]">
+                <div class="flex links items-center gap-5 font-medium text-[16px] leading-[150%] text-[#000]">
+                    <a href="#"><img src="../imges/menu.svg" alt="s"></a>
+                    <a href="#">Каталог</a>
+                    <a href="#">Наши работы</a>
+                    <a href="#">Отзывы</a>
+                    <a href="#">Видео</a>
+                    <a href="#" class="flex gap-4 items-center"><img src="../imges/tg.svg" alt="">Телеграм</a>
+                </div>
+                <div class="flex items-center gap-5">
+                    <button type="button" class="flex  items-center gap-4 border-[1px] border-[solid] text-black p-2 rounded-[8px] px-[20px] py-[10px] w-[196px] h-[42px]"><img src="../imges/kubik.svg" alt="">Проект + Расчет</button>
+                    <button type="button" class="flex items-center gap-4 border-[1px] border-[solid]  text-black p-2 rounded-[8px] px-[20px] py-[10px] w-[196px] h-[42px]"><img src="../imges/linia.svg" alt="">Вызвать замерщика  </button>
+                </div>
+            </div> 
+        </div>
+    </header> -->
+
+<!-- <header>
+  <div class="container">
+    <div class="flex justify-between items-center">
+      <a href="#"><img src="../imges/logo.png" alt="Logo"></a>
+      <button id="menu-btn" class="menu-btn"><img src="../imges/menu.svg" alt="Menu"></button>
+      <div class="contact-info flex items-center gap-[30px] font-medium text-[14px] leading-[150%] text-right text-[#000]">
+        <a href="#">Москва,<br>Дмитровское шоссе, д 62 стр 5</a>
+        <a href="#">+7 499 321-20-63 <br> Заказать звонок</a>
+        <a href="#">9:00 - 20:00 <br> ежедневно</a>
+        <a href="#"><img src="../imges/yurak.svg" alt="Like"></a>
+      </div>
+    </div>
+
+    <div class="flex justify-between items-center pt-[35px] actions">
+      <nav class="nav-links flex items-center gap-5 font-medium text-[16px] leading-[150%] text-[#000]">
+        <a href="#">Каталог</a>
+        <a href="#">Наши работы</a>
+        <a href="#">Отзывы</a>
+        <a href="#">Видео</a>
+        <a href="#" class="flex gap-4 items-center"><img src="../imges/tg.svg" alt="Telegram"> Телеграм</a>
+      </nav>
+      <div class="flex items-center gap-5">
+        <button class="project-btn flex items-center gap-4 border-[1px] text-black p-2 rounded-[8px] w-[196px] h-[42px]">
+          <img src="../imges/kubik.svg" alt="Project">Проект + Расчет
+        </button>
+        <button class="measure-btn flex items-center gap-4 border-[1px] text-black p-2 rounded-[8px] w-[196px] h-[42px]">
+          <img src="../imges/linia.svg" alt="Measure"> Вызвать замерщика
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chap tarafdan chiqadigan menyu -->
+  <!-- <nav id="side-menu" class="side-menu">
+    <ul>
+      <li><a href="#">Каталог</a></li>
+      <li><a href="#">Наши работы</a></li>
+      <li><a href="#">Отзывы</a></li>
+      <li><a href="#">Видео</a></li>
+      <li><a href="#">Телеграм</a></li>
+    </ul>
+  </nav>
+</header> --> 
+
+
+
+
+
+    <main>
+        <section>
+            <div class="contiener bg-[#B17955] ff flex hh flex-wrap justify-between items-center">
+                <img src="../imges/card1.png" class="  w-[60%]" alt="">
+                <div class=" p-5 order-1 ff">
+                    <p class="font-medium text-[32px] text-[#fff]">Кухни от производителя</p>
+                    <h2 class="font-extrabold sa text-[130px] uppercase text-[#fff]">-40%</h2>
+                    <p class="font-medium text-[24px] text-[#fff]">На коллекции кухонь</p>
+                    <button class="rounded-[8px] text-black bg-[rgba(255,_255,_255,_0.2)] hover:border-black mt-[10vh] px-[40px] py-[12px] w-[163px] h-[48px]" type="button">Выбрать</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <div class="contiener">
+                <div>
+
+                    <h3 class="font-semibold text-[32px] text-[#000] text-center"> Специально для Вас видео наших кухонь</h3>
+                </div>
+                 <div class="swiper mySwiper ">
+                    <br>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><iframe width="430" height="315" src="https://www.youtube.com/embed/NBB8PDenGJM?si=PFiPYQdeEo29VH_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="swiper-slide"><iframe width="430" height="315" src="https://www.youtube.com/embed/rE2c5bc76yY?si=JtO4mQw6OhRhdGMb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="swiper-slide"><iframe width="430" height="315" src="https://www.youtube.com/embed/an2_SKOJnWc?si=-W7f9a2pR0OYm8ne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+     <div class="swiper-slide"><iframe width="430" height="315" src="https://www.youtube.com/embed/NBB8PDenGJM?si=PFiPYQdeEo29VH_c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="swiper-slide"><iframe width="430" height="315" src="https://www.youtube.com/embed/rE2c5bc76yY?si=JtO4mQw6OhRhdGMb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+      <div class="swiper-slide"><iframe width="430" height="315" src="https://www.youtube.com/embed/an2_SKOJnWc?si=-W7f9a2pR0OYm8ne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+     
+            </div>
+            
+               <div class="contiener flex justify-center items-center ">
+
+            <button type="button" class="rounded-[8px] px-[40px] py-[12px] w-[312px] text-black flex justify-center items-center h-[48px]">Смотреть больше видео</button>
+        </div>
+        </section>
+
+
+        <section class="mt-4">
+            <div class="contiener">
+                <h3 class="font-semibold text-[32px] g text-[#000]">Живые фотографии наших работ от реальных клиентов 🥰</h3>
+
+                <div class="card_grid mt-[5vh] grid q1  grid-cols-[repeat(2,2fr)] gap-[30px]">
+                   
+                    <div class="card  w-[100%] ">
+                        <div class="b1 flex items-end p-4 w-[650px] h-[410px]">
+
+                            <div class="flex  gap-4 items-center w-[100%]">
+                                <button class="rounded-[8px]  flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k1.svg" class="w-[50%]" alt="">Видеообзор</button>
+                                <button class="rounded-[8px] flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k21.png" class="w-[50%]" alt="">Видеоотзыв</button>
+                                <button class="rounded-[8px] p-[10px] w-[44px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/yurak.svg" alt=""class="w-[100%]"></button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between gap-4 p-5">
+                            <h1 class="font-semibold text-[24px] text-[#000]">Кухня Teramo</h1>
+                            <a href="#" class="font-medium text-[14px] leading-[150%] text-[#878b90]">Массив дуба Фрезеровка7,2 м.п.</a>
+                            <div class="flex justify-between">
+                                <p class="font-semibold text-[24px] text-[#000]">125 000 ₽ 147 000 ₽</p>
+                                <button class="rounded-[8px] px-[20px] py-[10px] w-[200px] h-[42px]" type="button">Рассчитать эту</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card  w-[100%]  ">
+                        <div class="b2 flex items-end p-4 w-[650px] h-[410px]">
+
+                            <!-- <img src="../imges/card1.png" alt=""> -->
+                            <div class="flex gap-4 items-center w-[100%]">
+                                <button class="rounded-[8px]  flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k1.svg" class="w-[50%]" alt="">Видеообзор</button>
+                                <button class="rounded-[8px] flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k21.png" class="w-[50%]" alt="">Видеоотзыв</button>
+                                <button class="rounded-[8px] p-[10px] w-[44px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/yurak.svg" alt=""class="w-[100%]"></button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between gap-4 p-5">
+                            <h1 class="font-semibold text-[24px] text-[#000]">Кухня Teramo</h1>
+                            <a href="#" class="font-medium text-[14px] leading-[150%] text-[#878b90]">Массив дуба Фрезеровка7,2 м.п.</a>
+                            <div class="flex justify-between">
+                                <p class="font-semibold text-[24px] text-[#000]">125 000 ₽ 147 000 ₽</p>
+                                <button class="rounded-[8px] px-[20px] py-[10px] w-[200px] h-[42px]" type="button">Рассчитать эту</button>
+                            </div>
+                        </div>
+                    </div>
+                
+                
+                      <div class="card w-[100%] ">
+                        <div class="b3 flex items-end p-4 w-[650px] h-[410px]">
+
+                            <!-- <img src="../imges/card1.png" alt=""> -->
+                            <div class="flex gap-4 items-center w-[100%]">
+                                <button class="rounded-[8px]  flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k1.svg" class="w-[50%]" alt="">Видеообзор</button>
+                                <button class="rounded-[8px] flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k21.png" class="w-[50%]" alt="">Видеоотзыв</button>
+                                <button class="rounded-[8px] p-[10px] w-[44px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/yurak.svg" alt=""class="w-[100%]"></button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between gap-4 p-5">
+                            <h1 class="font-semibold text-[24px] text-[#000]">Кухня Teramo</h1>
+                            <a href="#" class="font-medium text-[14px] leading-[150%] text-[#878b90]">Массив дуба Фрезеровка7,2 м.п.</a>
+                            <div class="flex justify-between">
+                                <p class="font-semibold text-[24px] text-[#000]">125 000 ₽ 147 000 ₽</p>
+                                <button class="rounded-[8px] px-[20px] py-[10px] w-[200px] h-[42px]" type="button">Рассчитать эту</button>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                      <div class="card  w-[100%] ">
+                        <div class="b2 flex items-end p-4 w-[650px] h-[410px]">
+
+                            <!-- <img src="../imges/card1.png" alt=""> -->
+                            <div class="flex gap-4 items-center w-[100%]">
+                                <button class="rounded-[8px]  flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k1.svg" class="w-[50%]" alt="">Видеообзор</button>
+                                <button class="rounded-[8px] flex gap-2 items-center px-[16px] py-[10px] w-[165px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/k21.png" class="w-[50%]" alt="">Видеоотзыв</button>
+                                <button class="rounded-[8px] p-[10px] w-[44px] h-[44px] backdrop-filter backdrop-blur-[20px] bg-[rgba(255,_255,_255,_0.7)]"><img src="../imges/yurak.svg" alt=""class="w-[100%]"></button>
+                            </div>
+                        </div>
+                        <div class="flex flex-col justify-between gap-4 p-5">
+                            <h1 class="font-semibold text-[24px] text-[#000]">Кухня Teramo</h1>
+                            <a href="#" class="font-medium text-[14px] leading-[150%] text-[#878b90]">Массив дуба Фрезеровка7,2 м.п.</a>
+                            <div class="flex justify-between">
+                                <p class="font-semibold text-[24px] text-[#000]">125 000 ₽ 147 000 ₽</p>
+                                <button class="rounded-[8px] px-[20px] py-[10px] w-[200px] h-[42px]" type="button">Рассчитать эту</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#000000]">
+        <div class="contiener">
+            <div class=" jj flex justify-between flex-wrap ">
+
+            <div class="flex flex-col gap-6 items-start" >
+                <a href="#" class="text-white text-[32px]">Стиль</a>
+                <a href="#">Классика</a>
+                <a href="#">Неоклассика</a>
+                <a href="#">Прованс</a>
+                <a href="#">Современный</a>
+                <a href="#">Скандинавский</a>
+                <a href="#">Лофт</a>
+                <a href="#">Барокко</a>
+                <a href="#">Минимализм</a>
+            </div>
+
+
+             <div class="flex flex-col  gap-6 items-start">
+                <a href="#" class="text-white text-[32px]">Фасад</a>
+                <a href="#">Классика</a>
+                <a href="#">Неоклассика</a>
+                <a href="#">Прованс</a>
+                <a href="#">Современный</a>
+                <a href="#">Скандинавский</a>
+                <a href="#">Лофт</a>
+                <a href="#">Барокко</a>
+                <a href="#">Минимализм</a>
+            </div>
+
+   <div class="flex flex-col gap-6 items-start">
+                <a href="#" class="text-white text-[32px]">Форма кухни</a>
+                <a href="#">Классика</a>
+                <a href="#">Неоклассика</a>
+                <a href="#">Прованс</a>
+                <a href="#">Современный</a>
+                <a href="#">Скандинавский</a>
+                <a href="#">Лофт</a>
+                <a href="#">Барокко</a>
+                <a href="#">Минимализм</a>
+            </div>
+
+
+               <div class="flex flex-col gap-6 items-start">
+                <h3 class="text-white text-[32px]">Размер</h3>
+                <a href="#">Классика</a>
+                <a href="#">Неоклассика</a>
+                <a href="#">Прованс</a>
+                <a href="#">Современный</a>
+                <a href="#">Скандинавский</a>
+                <a href="#">Лофт</a>
+                <a href="#">Барокко</a>
+                <a href="#">Минимализм</a>
+            </div>
+
+               <div class="flex flex-col gap-6 items-start">
+                <h3 class="text-white text-[32px]">Цвет</h3>
+                <a href="#">Белые</a>
+                <a href="#">Серые</a>
+                <a href="#">Прованс</a>
+                <a href="#">Капучино</a>
+                <a href="#">Бежевые</a>
+                <a href="#">Коричневые</a>
+                <a href="#">Барокко</a>
+                <a href="#">Мятный</a>
+            </div>
+
+
+
+
+
+
+
+            </div>
+             
+               <div class="flex justify-between flex-wrap items-center pt-[7vh] "> 
+                <a href="#"><img src="../imges/logo2.png" alt="asd"></a>
+                <div class="flex items-center gap-[30px] font-medium text-[14px] leading-[150%]  text-[#ffff]">
+                    <a href="#" class="text-[#ffff]">Москва,<br>Дмитровское шоссе, д 62 стр 5</a>
+                    <a href="#" class="text-[#ffff]" >+7 499 321-20-63 <br> Заказать звонок</a>
+                    <a href="#"  class="text-[#ffff]">9:00 - 20:00 <br> ежедневно</a>
+                </div>
+            </div>
+
+            <div class="flex justify-between flex-wrap items-center pt-[35px]">
+                <div class="flex links items-center gap-5 font-medium text-[16px] leading-[150%] text-[#fff]">
+                    <a href="#" class="text-white">Каталог</a>
+                    <a href="#"  class="text-white">Наши работы</a>
+                    <a href="#" class="text-white">Отзывы</a>
+                    <a href="#" class="text-white">Видео</a>
+                    <a href="#" class="flex gap-4 items-center"><img src="../imges/tg.svg" alt="">Телеграм</a>
+                </div>
+                <div class="flex items-center ff1 gap-5">
+                    <button type="button" class="flex  items-center gap-4 border-[1px] border-[solid] text-black p-2 rounded-[8px] px-[20px] py-[10px] w-[196px] h-[42px]"><img src="../imges/kubik.svg" alt="">Проект + Расчет</button>
+                    <button type="button" class="flex items-center gap-4 border-[1px] border-[solid]  text-black p-2 rounded-[8px] px-[20px] py-[10px] w-[196px] h-[42px]"><img src="../imges/linia.svg" alt="">Вызвать замерщика  </button>
+                </div>
+            </div> 
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+     autoplay: {
+    delay: 1000,
+  },
+  breakpoints: {  
+    '0': {
+      slidesPerView: 1,
+      spaceBetween: 5,},
+    '942': {
+      slidesPerView: 2,
+      spaceBetween: 10,},
+    '1000': {
+      slidesPerView: 3,
+      spaceBetween: 20, },
+  },
+    });
+  </script>
+<script src="../main.js"></script>
+</body>
+</html>

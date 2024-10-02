@@ -36,16 +36,51 @@
 // console.log(btn)
 // asda
 
-const menu = document.querySelector(".menu")
+// const menu = document.querySelector(".menu")
 
-const navbar_links = document.querySelector(".links")
-console.log(menu)
+// const navbar_links = document.querySelector(".links")
+// console.log(menu)
 
-menu.addEventListener("click", () =>{
-    console.log("salom")
-    if(!navbar_links.classList.contains("active")){
-        navbar_links.classList.add("active");
-    }else{
-        navbar_links.classList.remove("active");
-    }
-});
+// menu.addEventListener("click", () =>{
+//     console.log("salom")
+//     if(!navbar_links.classList.contains("active")){
+//         navbar_links.classList.add("active");
+//     }else{
+//         navbar_links.classList.remove("active");
+//     }
+// });
+
+// function moveZeros(arr) {
+//   let arr1 = [];
+//   let count = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === 0) {
+//       count.push(0)
+//     }else{
+
+//         arr1.push(arr[i]);
+//     }
+//   }
+//   return [...arr1,...count]
+// }
+
+// let arr = [false, 1, 0, 1, 2, 0, 1, 3, "a"];
+
+// console.log(moveZeros(arr));
+
+// function arraySimilar(arr, arr1) {
+//   if (arr.sort((a, b) => a - b).join() === arr1.sort((a, b) => a - b).join()) {
+//     return true;
+//   } else return false;
+// }
+
+// let arr = [1, 2, 2, 3, 4];
+
+// let arr1 = [1, 2, 2, 3, 4];
+
+// console.log(arraySimilar(arr, arr1));
+
+
+
+
+
