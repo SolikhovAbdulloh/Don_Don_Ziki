@@ -628,30 +628,6 @@ video {
   width: 50%;
 }
 
-.w-\[60\%\]{
-  width: 60%;
-}
-
-.w-\[650px\]{
-  width: 650px;
-}
-
-.w-\[80\%\]{
-  width: 80%;
-}
-
-.w-\[750\%\]{
-  width: 750%;
-}
-
-.w-\[75\%\]{
-  width: 75%;
-}
-
-.w-\[70\%\]{
-  width: 70%;
-}
-
 .w-\[550px\]{
   width: 550px;
 }
@@ -909,12 +885,6 @@ button:hover{
   color: white;
 }
 
-.card_grid div:hover{
-  box-shadow:  0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 20px rgba(0, 0, 0, 0.15);
-  transition: 0.2s;
-  border-radius: 12px;
-}
-
 a:hover{
   color: #B17955;
 }
@@ -1058,6 +1028,15 @@ a{
   .b3 div{
     display: none;
   }
+
+  @media (max-width:410px) {
+    .flexx{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+  }
 }
 
 @media (max-width:882px) {
@@ -1076,6 +1055,10 @@ a{
   .ggg1{
     display: none;
   }
+
+  .tg{
+    display: none;
+  }
 }
 
 @media (max-width:390px) {
@@ -1084,6 +1067,14 @@ a{
     flex-direction: column;
     gap: 20px;
   }
+}
+
+.nav-links a{
+  color: rgb(0, 0, 0);
+}
+
+.nav-links a:hover{
+  color: rgb(48, 5, 5);
 }
 
 .nav-links{
@@ -1096,7 +1087,7 @@ a{
   left: 0;
   height: 100vh;
   width: 50%;
-  background-color: #B17955;
+  background-color: #c0a89a;
   flex-direction: column;
   left: -100%;
   transition: 0.5s;
@@ -1104,6 +1095,12 @@ a{
 
 .active{
   left: 0;
+}
+
+@media (max-width:437px) {
+  .card{
+    display: none;
+  }
 }
 
 .hover\:border-black:hover{

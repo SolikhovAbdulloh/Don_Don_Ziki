@@ -2,9 +2,9 @@ DOM - Dakument bu bir daraxt desek u doim bosh qismi hisoblanadi
 
 const aaa = document.getElementsByClassName("sss"); shu nomdagi classni qaytaradi
 
-const bbb = document.getElementsByTagName("body");shu nomdagi tagni qaytaradi
+const bbb = document.getElementsByTagName("body");shu nomdagi hammasini tagni qaytaradi
 
-const fff = document.getElementsByName("fff");shu nomdagilarni olib beradi
+const fff = document.getElementsByName("fff");shu class nomdagi qaytadi.
 
  const list = document.querySelector(".list"); faqat 1 ta clas olib beradi
 
