@@ -1,0 +1,81 @@
+DOM (Document Object Model) — bu hujjatni (odatda veb-sahifani) daraxt strukturasida ifodalash uchun ishlatiladigan modeldir. Bu model hujjatning tarkibini (HTML yoki XML), ularning atributlarini va ular o'rtasidagi bog'lanishlarni tasvirlaydi. JavaScript yoki boshqa dasturlash tillari orqali ushbu DOM strukturasiga kirib, o'zgarishlar kiritish, elementlarni qo'shish, o'chirish yoki tahrirlash mumkin.
+
+DOM haqida umumiy tushuncha
+Nima uchun kerak? DOM veb-sahifani dinamik boshqarish uchun ishlatiladi. Masalan, foydalanuvchi bilan o'zaro aloqaga kirishganda sahifadagi kontent o'zgarishi, formadagi ma'lumotlarni tekshirish yoki dinamik ravishda yangi elementlar qo'shish kerak bo'lishi mumkin. DOM orqali veb-sahifaning tarkibini dasturiy boshqarish mumkin bo'ladi.
+
+DOM tuzilmasi HTML yoki XML hujjati DOM daraxtiga aylantiriladi, bunda har bir element daraxtning tuguni (node) hisoblanadi. Bu tugunlar turli xil turlarga bo'linadi:
+
+Element tugunlari (Element nodes): HTML yoki XML elementlari, masalan <div>, <p>, <h1>.
+Atribut tugunlari (Attribute nodes): Elementning atributlari, masalan, class, id.
+Matn tugunlari (Text nodes): Elementlar ichidagi matnlar.
+Hujjat tuguni (Document node): Butun hujjatning yuqori darajadagi tuguni.
+
+
+getElementById() — id bo'yicha elementni tanlaydi:const element = document.getElementById('myElementId');
+const element = document.getElementById('myElementId');
+getElementsByClassName() — class bo'yicha elementlarni tanlaydi (HTMLCollection qaytaradi):
+
+
+const elements = document.getElementsByClassName('myClass');
+getElementsByTagName() — teg nomi bo'yicha elementlarni tanlaydi:
+
+
+const elements = document.getElementsByTagName('div');
+querySelector() — CSS selektoriga asoslangan birinchi mos elementni tanlaydi:
+
+
+const element = document.querySelector('.myClass');
+querySelectorAll() — CSS selektori bo'yicha barcha mos elementlarni tanlaydi (NodeList qaytaradi):
+
+
+const elements = document.querySelectorAll('p');
+2. Elementlarni o'zgartirish:
+Matnni o'zgartirish:
+
+
+element.textContent = 'Yangi matn';
+HTML kodini o'zgartirish:
+
+
+element.innerHTML = '<b>Yangi HTML</b>';
+Stilni o'zgartirish:
+
+
+element.style.color = 'red';
+3. Yangi element qo'shish:
+Yangi element yaratish:
+
+
+const newElement = document.createElement('div');
+newElement.textContent = 'Yangi element';
+Yaratilgan elementni DOM ga qo'shish:
+
+
+document.body.appendChild(newElement);
+4. Elementlarni olib tashlash yoki almashtirish:
+Elementni olib tashlash:
+
+
+element.remove();
+Elementni almashtirish:
+
+
+oldElement.replaceWith(newElement);
+DOMdagi asosiy hodisalar (events)
+DOM bilan ishlashda hodisalarni tinglash ham muhimdir. Hodisalar orqali foydalanuvchi bilan o'zaro aloqa qilinadi. Eng ko'p uchraydigan hodisalar quyidagilar:
+
+click — elementga bosish hodisasi.
+mouseover — sichqoncha element ustiga keltirilganda.
+keydown — klaviatura tugmasi bosilganda.
+Misol:
+
+
+document.getElementById('myButton').addEventListener('click', function() {
+  alert('Tugma bosildi!');
+});
+
+DOM'ning ahamiyati
+Dinamik o'zgarishlar: DOM yordamida sahifadagi kontentni dinamik tarzda o'zgartirish mumkin, bu esa veb-ilovalarning interaktiv va qiziqarli bo'lishiga yordam beradi.
+Foydalanuvchi bilan o'zaro aloqa: Hodisalar orqali foydalanuvchi bilan o'zaro aloqalarni boshqarish osonlashadi.
+Oson qidiruv va tahrirlash: DOM metodlari orqali sahifadagi elementlarni osongina topish va ularga o'zgartirishlar kiritish mumkin.
+DOM veb-ishlab chiqishda asosiy tushunchalardan biri bo'lib, sahifaning strukturasi va uni dasturiy boshqarish imkonini beradi.
