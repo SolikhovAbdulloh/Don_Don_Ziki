@@ -1,5 +1,8 @@
 // const btn = document.getElementById("btn");
 
+// console.log(document);
+
+
 // const aaa = document.getElementsByClassName("sss");
 
 // const bbb = document.getElementsByTagName("body");
@@ -79,6 +82,8 @@
 // let arr1 = [1, 2, 2, 3, 4];
 
 // console.log(arraySimilar(arr, arr1));
+
+
 
 
 
