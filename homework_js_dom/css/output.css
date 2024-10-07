@@ -556,8 +556,8 @@ video {
   display: none;
 }
 
-.mt-6{
-  margin-top: 1.5rem;
+.mt-7{
+  margin-top: 1.75rem;
 }
 
 .mt-\[10vh\]{
@@ -568,20 +568,20 @@ video {
   display: flex;
 }
 
-.w-\[50\%\]{
-  width: 50%;
+.grid{
+  display: grid;
 }
 
-.w-\[100\%\]{
-  width: 100%;
+.w-\[50\%\]{
+  width: 50%;
 }
 
 .cursor-pointer{
   cursor: pointer;
 }
 
-.flex-col{
-  flex-direction: column;
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .items-center{
@@ -608,24 +608,28 @@ video {
   background-repeat: repeat;
 }
 
-.p-6{
-  padding: 1.5rem;
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-\[18px\]{
+  font-size: 18px;
 }
 
 .text-\[24px\]{
   font-size: 24px;
 }
 
-.text-\[60px\]{
-  font-size: 60px;
-}
-
 .text-\[36px\]{
   font-size: 36px;
 }
 
-.text-\[18px\]{
-  font-size: 18px;
+.text-\[60px\]{
+  font-size: 60px;
 }
 
 .font-normal{
@@ -725,7 +729,6 @@ img{
   .active {
     display: flex;
     left: 0;
-    transition: 0.4s;
   }
 }
 
@@ -819,4 +822,25 @@ img{
 
 .swiper-slide:nth-child(3n) {
   width: 40%;
+}
+
+@media (max-width:647px) {
+  .card1 > div{
+    order: 1;
+  }
+
+  .card1 img{
+    width: 100%;
+  }
+
+  .card1{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .aaa h3{
+    font-size: 30px;
+  }
 }
