@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma in Java</title>
+    <link rel="shortcut icon" href="../imges/logotip.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  </head>
+  <body>
+    <header>
+      <div class="contiener ff flex justify-between items-center">
+        <a href="#">
+          <img class="bg-repeat bg-cover" src="../imges/logotip.png" alt="sss" />
+        </a>
+
+        <ul class="menu transition 3s flex  gap-[60px] items-center">
+          <li class="#"><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <div>
+
+              <button type="button" id="btn">Take a scoring test</button>
+          </div>
+        </ul>
+        
+        <i class="fa-solid fa-bars cursor-pointer " id="bars"></i>     
+    </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="ffa contiener flex justify-around items-center">
+                <div class="left_showcase  w-[50%]">
+                    <h3 class="font-normal text-[60px] text-[#32333d]">One platform <br> meeting <span style="color: #31c072;">all your <br> relocation</span> needs</h3>
+                    <p class="font-normal text-[24px] leading-[158%] text-[#5b6574]">Get a Global Talent Visa and relocate to the UK. <br> Start your journey now</p>
+                    <br>
+                    <button>Take a scoring test</button>
+                </div>
+                <div class="img">
+                    <img  src="../imges/sowcase.svg"    alt="">
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section>
+            <div class="contiener">
+                 <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="../imges/j1.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j2.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j3.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j4.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j3.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j2.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j1.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j2.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j3.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j4.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j1.png" alt=""></div>
+      <div class="swiper-slide"><img src="../imges/j2.png" alt=""></div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+            </div>
+        </section>
+
+        <div class="contiener">
+            <h3 class="font-normal text-[60px] text-[#32333d]">Immigration made easy</h3>
+            <p class="font-normal text-[24px] leading-[158%] text-[#5b6574]">Urelocation simplifies the visa process for you and your international employees. <br>
+                 We’ll handle the fine details so you can focus on other tasks</p>
+        </div>
+
+        <section class="mt-[10vh]">
+            <div class="contiener ">
+                <div class="card1 mt-7 flex justify-around items-center ">
+                   <div> <h2 class="font-normal text-[36px]" >Fast Service</h2>
+                    <p class="font-normal text-[18px] leading-[183%] text-[#5b6574]" >We research, build, submit, and get approved visas
+                         in a fraction <br> of the time while working around your timelines.</p></div>
+                         <img src="../imges/r1.png " class="w-[50%]" alt="">
+                </div>
+                    <br><br>
+                    
+                 <div class="card1 flex mt-7 justify-around items-center ">
+                     <img src="../imges/r2.png " class="w-[50%]" alt="">
+                   <div> <h2 class="font-normal text-[36px]" >Fast Service</h2>
+                    <p class="font-normal text-[18px] leading-[183%] text-[#5b6574]" >We research, build, submit, and get approved visas
+                         in a fraction <br> of the time while working around your timelines.</p></div>
+                </div>
+                    <br><br>
+
+                 <div class="card1 flex mt-7 pt-6 justify-around items-center ">
+                   <div> <h2 class="font-normal text-[36px]" >Fast Service</h2>
+                    <p class="font-normal text-[18px] leading-[183%] text-[#5b6574]" >We research, build, submit, and get approved visas
+                         in a fraction <br> of the time while working around your timelines.</p></div>
+                         <img src="../imges/r3.png " class="w-[50%]" alt="">
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 30,
+       autoplay: {
+    delay: 1000,
+  },
+       breakpoints: { 
+        '0':{
+        slidesPerView:2,
+        spaceBetween: 40
+        }, 
+    '480': {
+      slidesPerView: 3,
+      spaceBetween: 40,},
+    '640': {
+      slidesPerView: 4,
+      spaceBetween: 50, },
+    '1040': {
+      slidesPerView: 5,
+      spaceBetween: 50, },}
+        
+     
+    });
+    
+  </script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
+

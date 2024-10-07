@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border-radius: 60px;
+  padding: 21px 36px;
+  width: 230px;
+  height: 60px;
+  background-color: #FFBB8A;
+  color: aliceblue;
+}
+button:hover{
+    background-color:#14dd6e ;
+}
+
+
+a:hover {
+  color: #31c072;
+}
+
+.contiener {
+  margin: 0 auto;
+  padding: 20px 40px;
+  max-width: 1440px;
+}
+
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+#bars {
+  display: none;
+}
+
+
+@media(max-width: 953px){
+  .menu{
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    padding: 10px;
+    width: 50%;
+    height: 80%;
+    background-color: #5eb083;
+  }
+
+  #btn{
+    background-color: #FFBB8A;
+  }
+
+  #bars {
+    display: block; 
+
+  }
+
+  .active {
+    display: flex;
+    left: 0;
+    transition: 0.4s;
+
+    
+
+  }
+}
+@media (max-width:465px) {
+
+    #btn{
+
+        width: 120px;
+        height: 40px;
+        font-size: xx-small;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:1214px) {
+    .left_showcase h3{
+        font-size: 45px;
+
+    }
+
+}
+@media (max-width:1024px) {
+    .left_showcase h3{
+        font-size: 32px;
+
+    }
+    .left_showcase p{
+        font-size: 17px;       
+    }
+    .left_showcase{
+        width: 100%;
+    }
+
+    
+}
+@media (max-width:667px) {
+   .ffa{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+   }
+   .left_showcase{
+    order: 1;
+   }
+    .img img{
+        width: 100%;
+    }
+}
+@media (max-width:400px) {
+    .left_showcase button{
+       width: 180px;
+  height: 50px; 
+  font-size: xx-small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    }
+}
+ .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+        width: auto;
+        
+      object-fit: cover;
+    }
+
+    .swiper-slide {
+      width: 80%;
+    }
+
+    .swiper-slide:nth-child(2n) {
+      width: 60%;
+    }
+
+    .swiper-slide:nth-child(3n) {
+      width: 40%;
+    }
