@@ -187,4 +187,53 @@ img{
         .aaa h3{
             font-size: 30px;
         }
+        
+    }
+    .grid1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .grid1 img{
+        width: 300px;
+    }
+
+    @media (max-width:500px) {
+        .h{
+            font-size: 40px;
+        }
+    }
+
+    @media (max-width:606px) {
+        .kk{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+    }
+    @media (max-width:710px) {
+        .grid1{
+            display: none;
+        }
+        .g{
+            display: none;
+        }
+    }
+    @media (max-width:1144px) {
+        .dd{
+            display: none;
+        }
+        .dd1{
+            width: 100%;
+        }
+    }
+    @media (max-width:424px) {
+        .dd1{
+            display: none;
+        }
     }
