@@ -572,6 +572,10 @@ video {
   margin-top: 7vh;
 }
 
+.mt-\[\]{
+  margin-top: ;
+}
+
 .flex{
   display: flex;
 }
@@ -680,6 +684,10 @@ video {
   gap: 60px;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .rounded-\[12px\]{
   border-radius: 12px;
 }
@@ -772,6 +780,10 @@ video {
 
 .text-center{
   text-align: center;
+}
+
+.text-start{
+  text-align: start;
 }
 
 .text-\[18px\]{
