@@ -572,6 +572,10 @@ video {
   display: flex;
 }
 
+.h-\[289px\]{
+  height: 289px;
+}
+
 .h-\[30px\]{
   height: 30px;
 }
@@ -582,6 +586,18 @@ video {
 
 .h-\[57px\]{
   height: 57px;
+}
+
+.h-\[77px\]{
+  height: 77px;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-\[1240px\]{
+  width: 1240px;
 }
 
 .w-\[136px\]{
@@ -652,6 +668,10 @@ video {
   border-radius: 15px;
 }
 
+.rounded-\[20px\]{
+  border-radius: 20px;
+}
+
 .rounded-\[35px\]{
   border-radius: 35px;
 }
@@ -706,9 +726,19 @@ video {
   padding-right: 20px;
 }
 
+.px-\[30px\]{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .py-\[10px\]{
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .pt-6{
@@ -787,6 +817,13 @@ body {
   box-sizing: border-box;
 }
 
+header{
+  top: 0;
+  z-index: 99;
+  position:sticky;
+  background-color: white;
+}
+
 button {
   border-radius: 60px;
   padding: 21px 36px;
@@ -831,6 +868,7 @@ img{
     width: 50%;
     height: 80%;
     background-color: #5eb083;
+    color: red;
   }
 
   #btn{
@@ -1013,6 +1051,20 @@ img{
   .dd1{
     display: none;
   }
+}
+
+.Accordion_1,.Accordion_2,.Accordion_3{
+  width: 200px;
+  height: 200px;
+  background-color: #14dd6e;
+  color: #fff;
+  border: 1px solid red;
+  border-radius: 12px;
+  background-color: wheat;
+}
+
+.Text_accordion{
+  display: none;
 }
 
 @media (min-width: 768px){

@@ -12,7 +12,12 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+header{
+    top: 0;
+    z-index: 99;
+    position:sticky;
+    background-color: white;
+}
 button {
   border-radius: 60px;
   padding: 21px 36px;
@@ -59,6 +64,7 @@ img{
     width: 50%;
     height: 80%;
     background-color: #5eb083;
+    color: red;
   }
 
   #btn{
@@ -236,4 +242,17 @@ img{
         .dd1{
             display: none;
         }
+    }
+    .Accordion_1,.Accordion_2,.Accordion_3{
+        width: 200px;
+        height: 200px;
+        background-color: #14dd6e;
+        color: #fff;
+        border: 1px solid red;
+        border-radius: 12px;
+        background-color: wheat;
+    }
+    .Text_accordion{
+        display: none;
+
     }
