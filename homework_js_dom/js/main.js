@@ -21,6 +21,18 @@ if (panel.style.display === "none") {
 }
     })
 })
+const btn2 = document.querySelector('.btn')
+
+btn2.addEventListener('click',()=>{
+
+    const panel = btn2.nextElementSibling;
+
+    if(panel.style.display == 'none'){
+        panel.style.display = 'block';
+    }else{
+        panel.style.display = 'none'
+    }
+})
 
 const rasmlar = document.querySelectorAll('.img')
 
@@ -33,7 +45,17 @@ rasmlar.forEach((rasm)=>{
     })
 })
  
+const img = document.querySelector('.rasm')
 
+let aylanish = 0
+img.addEventListener('click',()=>{
+
+    aylanish += 180
+
+    img.style.transform = `rotate(${aylanish}deg)`
+    
+
+})
     
     
 

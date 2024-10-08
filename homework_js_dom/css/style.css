@@ -29,10 +29,18 @@ button {
 button:hover{
     background-color:#14dd6e ;
 }
-
+.text-acc a{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 a:hover {
   color: #31c072;
+}
+.btn:hover{
+    color: #31c072;
+    cursor: pointer;
 }
 
 .contiener {
@@ -64,7 +72,9 @@ img{
     width: 50%;
     height: 80%;
     background-color: #5eb083;
-    color: red;
+    color: rgb(14, 56, 170);
+    font-size: large;
+    font-weight: 400;
   }
 
   #btn{
@@ -252,7 +262,16 @@ img{
         border-radius: 12px;
         background-color: wheat;
     }
+
     .Text_accordion{
         display: none;
+        
 
+
+    }
+    .Text_accordion h1{
+        transition: 1s;
+    }
+    .text-acc{
+        display: none;
     }
