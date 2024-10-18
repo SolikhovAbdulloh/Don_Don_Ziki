@@ -1,14 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    max-width: 1400px;
-    padding: 20px 40px;
-    margin: 0 auto;
+body {
+  max-width: 1400px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  background-color: rgb(152, 160, 160);
 }
-
+h1 {
+  text-align: center;
+}
+.score {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 100px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.btn button {
+  background-color: orange;
+  border-radius: 12px;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
