@@ -28,10 +28,12 @@ function solishtir(player, computer) {
     (player == "Tosh" && computer == "Qaychi")
   ) {
     alert(`Urraa Yutdingiz Campyuter ${computer} qildi`);
-    countPlyer.textContent = parseInt(countPlyer.textContent) + 1;
-  } else {
-    alert(`Yutqazdingiz kampyuter ${computer} qildi`)
     countComp.textContent = parseInt(countComp.textContent) + 1;
+
+} else {
+    alert(`Yutqazdingiz kampyuter ${computer} qildi`)
+    countPlyer.textContent = parseInt(countPlyer.textContent) + 1;
+
   }
 
 }
