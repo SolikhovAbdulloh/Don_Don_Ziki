@@ -4,8 +4,8 @@ const countComp = document.querySelector("#count1");
 const countPlyer = document.querySelector("#count2");
 
 restart.addEventListener("click", () => {
-  countComp.textContent = "0";
-  countPlyer.textContent = "0";
+  countComp.textContent = 0;
+  countPlyer.textContent = 0;
 });
 
 icons.forEach((icon) => {
@@ -28,11 +28,11 @@ function solishtir(player, computer) {
     (player == "Tosh" && computer == "Qaychi")
   ) {
     alert(`Urraa Yutdingiz Campyuter ${computer} qildi`);
+    countPlyer.textContent = parseInt(countPlyer.textContent) + 1;
   } else {
     alert(`Yutqazdingiz kampyuter ${computer} qildi`)
+    countComp.textContent = parseInt(countComp.textContent) + 1;
   }
-    countPlyer = parseInt(countPlyer.textContent) + 1;
-    countComp = parseInt(countComp.textContent) + 1;
 
 }
 
